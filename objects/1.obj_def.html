@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>24.01.20</title>
+</head>
+<body>
+    <header></header>
+    <div>
+        <h2>Object:</h2>
+            <ul>
+                <li>Allows us to store related pieces of information in a single value.</li>
+                <li>All is related a single entity.</li>
+            </ul>
+        <h3>&emsp;Examples:</h3>
+            <p><strong>user:</strong> name, age, email, pass</p> 
+            <p><strong> book:</strong> numpages, author, editorial</p>
+        <h4>&emsp;Book example</h4>
+        
+        <ins>1. Define a variable:</ins>
+            <p>
+                &emsp;let myBook = { <br>
+                &emsp;&emsp;title: 'The Martian Chronicles', <br>
+                &emsp;&emsp;author: 'Ray Bradbury', <br>
+                &emsp;&emsp;year: 1950, <br>
+                &emsp;&emsp;pagecount: 224 <br>
+                &emsp;} <br>
+            </p>
+        <ins>2. Console</ins>
+            <p>console.log(myBook) </p>
+            <p>shows: <br>
+                { <br>
+                &ensp;title: 'The Martian Chronicles', <br>
+                &ensp;author: 'Ray Bradbury', <br>
+                &ensp;year: 1950, <br>
+                &ensp;pagecount: 224 <br>
+                } <br>
+            </p>
+            <mark>console.property !!!</mark>
+            <p>&emsp;console.log(myBook.title)</p>
+            <p>&emsp;&emsp;shows title: The Martian Chronicles</p>
+            <mark>using template strings:</mark>
+            <p>&emsp;console.log(`${myBook.title} author is ${myBook.author}`)</p>
+            <p>&emsp;&emsp;shows: The Martian Chronicles author is Ray Bradbury</p>
+
+                
+    </div>
+    <footer>
+        <h3>Plus: </h3>
+        <ul>
+            <li>Type &+nbsp; &nbsp; (inspect) to add a single space </li>
+            <li>Type &+ensp; &ensp; (inspect) to add 2 spaces </li>
+            <li>Type &+emsp; &emsp; (inspect) to add 4 spaces </li>
+            <li>Use the non-breaking space (nbsp) 4 times to insert a tab </li>
+            <li>Use “br” to add a line break </li>
+        </ul>    
+    </footer>
+</body>
+</html>    
